@@ -10,3 +10,4 @@
   - Werror
   - Xlint
   - etc...
+- Maven Dependency Plugin: https://maven.apache.org/plugins/maven-dependency-plugin/

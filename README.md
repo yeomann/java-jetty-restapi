@@ -12,3 +12,9 @@
   - etc...
 - Maven Dependency Plugin: https://maven.apache.org/plugins/maven-dependency-plugin/
 - Logback Configuration: https://logback.qos.ch/manual/configuration.html
+
+## Run: verify SSL enabled Localhost
+- `curl -vvv https://localhost:8443` (got a response from jetty but curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it)
+- `curl -k -vvv https://localhost:8443` (-k to ignore ssl legitimacy error)
+- best way with certification in curl params `curl --cacert my-app-server/src/main/resources/certs/ca.crt -is https://localhost:8443`

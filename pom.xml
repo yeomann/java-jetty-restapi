@@ -12,6 +12,7 @@
   </modules>
 
   <properties>
+    <java.version>14</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -64,9 +65,11 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.10.1</version>
           <configuration>
+            <source>${java.version}</source>
+            <target>${java.version}</target>
             <compilerArgs>
-              <arg>-Xerror</arg>
-              <arg>-Xlint:All</arg>
+              <arg>-Werror</arg>
+              <arg>-Xlint:all</arg>
             </compilerArgs>
             <showDeprecation>true</showDeprecation>
             <failOnWarning>true</failOnWarning>

@@ -1,4 +1,4 @@
-## maven resources
+##  Resources
 - `mvn clean install` ("clean" is a phase of the clean lifecycle, "install" is a phase of the default lifecycle)
 - Maven Resources Plugin: https://maven.apache.org/plugins/maven-resources-plugin/index.html
 - Maven repository: https://mvnrepository.com/ 
@@ -11,3 +11,4 @@
   - Xlint
   - etc...
 - Maven Dependency Plugin: https://maven.apache.org/plugins/maven-dependency-plugin/
+- Logback Configuration: https://logback.qos.ch/manual/configuration.html

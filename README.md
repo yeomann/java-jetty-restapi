@@ -2,6 +2,11 @@
 - `mvn clean install` ("clean" is a phase of the clean lifecycle, "install" is a phase of the default lifecycle)
 - Maven Resources Plugin: https://maven.apache.org/plugins/maven-resources-plugin/index.html
 - Maven repository: https://mvnrepository.com/ 
-- See plugin available commands (goals): https://maven.apache.org/surefire/maven-failsafe-plugin/plugin-info.html
+- See plugin available commands (goals):
+  - example; failsafe plugin: https://maven.apache.org/surefire/maven-failsafe-plugin/plugin-info.html
+  - example; compiler plugin: https://maven.apache.org/plugins/maven-compiler-plugin/plugin-info.html
 - Maven build phases: https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
-- 
+- Java compiler args: https://docs.oracle.com/javase/7/docs/technotes/tools/windows/javac.html
+  - Werror
+  - Xlint
+  - etc...
